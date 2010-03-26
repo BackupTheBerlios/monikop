@@ -387,7 +387,7 @@ pid file = /var/run/rsyncd.pid
         list = no
         comment = Pokinom only; requires authentication
         read only = no
-        incoming chmod = g+r,g+w
+        incoming chmod = g+r,g+w,g+x
         write only = yes
         # Pokinom's IP:
         hosts allow = 192.168.180.120
